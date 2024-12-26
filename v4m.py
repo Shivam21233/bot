@@ -16,13 +16,13 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7798306755:AAFKr04yqyAo4XAmgKJlfcoYdklrj22_ivU'
+TOKEN = '7838768108:AAGLysY6avwGhyC9l_fI-U59q_Tzy5tbDFo'
 MONGO_URI = 'mongodb+srv://botplays:botplays@botplays.0xflp.mongodb.net/?retryWrites=true&w=majority&appName=Botplays'
 FORWARD_CHANNEL_ID = -1002371337064
 CHANNEL_ID = -1002371337064
 error_channel_id = -1002371337064
-ADMIN_ID = 5123961345  # Replace with your actual Telegram ID
-AUTHORIZED_USERS = [5123961345]  # Replace with actual admin user IDs
+ADMIN_ID = 5123961345, 6397730498  # Replace with your actual Telegram ID
+AUTHORIZED_USERS = [5123961345, 6397730498]  # Replace with actual admin user IDs
 UPLOAD_REQUESTS = {}  # For tracking upload states
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
